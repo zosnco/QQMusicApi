@@ -7,8 +7,6 @@
 
 接口参考：
 
-[接口文档 Github](https://jsososo.github.io/QQMusicApi/#/)
-
 [接口文档 Vercel](https://qq-api-soso.vercel.app/)
 
 
@@ -17,26 +15,26 @@
 ### Node 服务
 
 ```shell script
-git clone git@github.com:jsososo/QQMusicApi.git
+git clone git@github.com:zosnco/QQMusicApi.git
 
-yarn
+pnpm install
 
-yarn start
+pnpm start
 ```
 
 ### Docker
 
 ```shell script
-yarn build:docker
+pnpm build:docker
 
-yarn start:docker
+pnpm start:docker
 ```
 
 
 ### npm
 
 ```shell script
-yarn add qq-music-api
+pnpm add qq-music-api
 ```
 
 #### 接口调用
